@@ -1,0 +1,17 @@
+.container {
+  background-color: blue;
+  padding: 10px;
+}
+.wrapper {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+
+  justify-content: space-between;
+}
+.wrapper button {
+  background-color: orange;
+}
+.wrapper input {
+  border: none;
+}

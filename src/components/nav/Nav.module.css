@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: aqua;
+}
+
+.menu {
+  display: flex;
+}
+.menu div {
+  margin-left: 15px;
+  font-size: 1.5rem;
+}
