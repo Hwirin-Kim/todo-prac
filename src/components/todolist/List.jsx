@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Todo from "./Todo";
+import classes from "./List.module.css";
 
-export default function List({ todoList, setTodoList }) {
+export default function List({ todoList, setTodoList, filtered }) {
   return (
-    <>
-      {todoList.map((todo) => {
+    <div className={classes.container}>
+      {filtered.map((todo) => {
         return (
           <Todo
             todo={todo}
@@ -14,6 +15,6 @@ export default function List({ todoList, setTodoList }) {
           />
         );
       })}
-    </>
+    </div>
   );
 }
