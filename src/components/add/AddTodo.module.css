@@ -1,5 +1,5 @@
 .container {
-  background-color: #1c1e3e;
+  background-color: var(--color-bg-dark);
   padding: 10px;
 }
 .wrapper {
@@ -10,9 +10,9 @@
   justify-content: space-between;
 }
 .wrapper button {
-  background-color: orange;
+  background-color: var(--color-accent);
   border: none;
-  color: white;
+  color: var(--color-text);
   font-size: 1.3rem;
   font-weight: bold;
   width: 30%;

@@ -5,5 +5,12 @@
   width: 100%;
   padding: 5px 10px;
   box-sizing: border-box;
-  background-color: #262844;
+  background-color: var(--color-bg);
+}
+.container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
 }

@@ -5,6 +5,12 @@
   --color-text: #22243b;
   --color-accent: #f16e03;
 }
+html.dark {
+  --color-bg-dark: #1c1e3e;
+  --color-accent: #f16e03;
+  --color-text: #d1d1d1;
+  --color-bg: #262844;
+}
 
 body {
   margin: 0;
